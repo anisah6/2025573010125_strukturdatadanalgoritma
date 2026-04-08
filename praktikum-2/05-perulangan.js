@@ -58,7 +58,7 @@ for (let angka = 2; angka <= 50; angka++) {
             break;
         }
     }
-
+    
     if (prima) {
         console.log(angka);
     }
