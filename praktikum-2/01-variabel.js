@@ -21,4 +21,4 @@ console.log('Tahun Masuk:', tahunMasuk);
 
 // --- coba hapus '//' dibaris bawah ini,lalu jalankan ulang ---
 // jurusan = 'Sistem Informasi'; // --> ini akan menyebabkan ERROR!
- 
+ console.log("praktikum 2 update");
