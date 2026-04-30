@@ -6,7 +6,6 @@ const dataMahasiswa =[
     {nama : "Eka",  nilai : 75},
     {nama : "Fajar",nilai : 50}
 ];
-
 function hitungStatistik(arrMahasiswa) {
     const total = arrMahasiswa.length;
 
@@ -29,11 +28,9 @@ return {
     terendah  : hasil.terendah
 };
 }
-
 function filterLulus(arrMahasiswa, batasLulus){
     return arrMahasiswa.filter(mhs => mhs.nilai >= batasLulus);
 }
-
 function tambahGrade(arrmahasiswa) {
     return arrMahasiswa,map(mhs => {
         let grade;

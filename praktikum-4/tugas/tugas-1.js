@@ -23,10 +23,6 @@ class Produk {
     console.log(`Berhasil menjual ${jumlah} ${this.nama}. Sisa stok: ${this.stok}`);
   }
 }
-
-// =========================================
-// CLASS PRODUK DIGITAL
-// =========================================
 class ProdukDigital extends Produk {
   constructor(id, nama, harga, ukuranFile, formatFile) {
     super(id, nama, harga, 999); // stok tidak relevan

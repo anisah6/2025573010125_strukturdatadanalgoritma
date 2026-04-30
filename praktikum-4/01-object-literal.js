@@ -48,12 +48,10 @@ for (const key in dosen) {
     }
 }
 
-//Object.keys(), Object.values(), Object.entries()
 console.log('Keys   :', Object.keys(mahasiswa));
 console.log('Values :', Object.values(mahasiswa));
 
 // Latihan 1 Object Buku dan Perpustakaan
-
 const buku = {
     judul          : "Algoritma dan Struktur Data",
     pengarang      : "Dr. Ahmad Fauzi",
@@ -69,7 +67,6 @@ const buku = {
         return this.harga -(this.harga * persen / 100);
     }
 };
-
 console.log("=== INFO BUKU ===");
 console.log(buku.info());
 console.log("Harga setelah diskon 10%:", buku.diskon(10));
